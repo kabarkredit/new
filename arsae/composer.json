@@ -1,0 +1,25 @@
+{
+    "name": "buchin/wp_arsae",
+    "description": "TOS friendly way to legally bypass adsense review site and ad crawler not showing restrictions.",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Mochammad Masbuchin",
+            "email": "buchin@dropsugar.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "rappasoft/laravel-helpers": "dev-master",
+        "buchin/termapi-client": "dev-master",
+        "buchin/searchterm": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        },
+        { "packagist": false }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4ab06e944123b172c4ef3898887eae19",
+    "packages": [
+        {
+            "name": "buchin/searchterm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/buchin/searchterm.git",
+                "reference": "c1a03da89c9c11d5ad43c0b44f46851d50cb7ec7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/buchin/searchterm/zipball/c1a03da89c9c11d5ad43c0b44f46851d50cb7ec7",
+                "reference": "c1a03da89c9c11d5ad43c0b44f46851d50cb7ec7",
+                "shasum": ""
+            },
+            "require-dev": {
+                "kahlan/kahlan": "^3.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Buchin\\SearchTerm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mochammad Masbuchin",
+                    "email": "buchin@dropsugar.com"
+                }
+            ],
+            "description": "Detect search keywords if referer coming from search engine",
+            "time": "2018-12-16T05:51:07+00:00"
+        },
+        {
+            "name": "buchin/termapi-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/buchin/termapi-client.git",
+                "reference": "8d226cb625765864de63e1c5e972fc331ff1ddd6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/buchin/termapi-client/zipball/8d226cb625765864de63e1c5e972fc331ff1ddd6",
+                "reference": "8d226cb625765864de63e1c5e972fc331ff1ddd6",
+                "shasum": ""
+            },
+            "require-dev": {
+                "kahlan/kahlan": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Buchin\\TermapiClient\\": "src/"
+                },
+                "files": [
+                    "functions/recent_terms.php",
+                    "functions/popular_terms.php",
+                    "functions/insert_term.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mochammad Masbuchin",
+                    "email": "buchin@dropsugar.com"
+                }
+            ],
+            "description": "Client for Term API",
+            "time": "2018-12-15T06:28:03+00:00"
+        },
+        {
+            "name": "rappasoft/laravel-helpers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rappasoft/laravel-helpers.git",
+                "reference": "f2454f75ea582cc7b25df06b6d8076657344a190"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rappasoft/laravel-helpers/zipball/f2454f75ea582cc7b25df06b6d8076657344a190",
+                "reference": "f2454f75ea582cc7b25df06b6d8076657344a190",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Rappa",
+                    "email": "rappa819@gmail.com"
+                }
+            ],
+            "description": "Laravel Helpers for Non-Laravel Projects",
+            "keywords": [
+                "helpers",
+                "laravel"
+            ],
+            "time": "2018-01-27T20:45:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "rappasoft/laravel-helpers": 20,
+        "buchin/termapi-client": 20,
+        "buchin/searchterm": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
